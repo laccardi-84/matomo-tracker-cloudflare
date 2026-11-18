@@ -1,5 +1,5 @@
 routes = [
-  { pattern = "www.divegearexpress.com/matomo-ai-test*", zone_name = "divegearexpress.com" }
+  { pattern = "www.achrodeco.com/*", zone_name = "achrodeco.com" }
 ]
 name = "matomo-tracker-cloudflare"
 main = "dist/index.js"
@@ -18,8 +18,8 @@ port = 8787
 local_protocol = "https"
 
 [vars]
-MATOMO_URL = "https://www.divegearexpress.com/matomo"
-MATOMO_SITE_ID = "1"
+MATOMO_URL = "https://achro.innocraft.cloud"
+MATOMO_SITE_ID = "6"
 MATOMO_TIMEOUT_MS = "5000"
 LOG_LEVEL = "warn"
 USER_AGENT_ALLOWLIST_REGEX = ""
