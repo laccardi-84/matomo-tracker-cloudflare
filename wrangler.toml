@@ -1,7 +1,7 @@
 routes = [
   { pattern = "www.achrodeco.com/*", zone_name = "achrodeco.com" }
 ]
-name = "matomo-tracker-cloudflare"
+name = "matomo-ai-tracking"
 main = "dist/index.js"
 compatibility_date = "2024-12-08"
 compatibility_flags = ["nodejs_compat"]
